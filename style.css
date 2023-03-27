@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Rashi+Hebrew&family=Space+Mono&display=swap');
+
+body{
+    background: #003519f9;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.fundo{
+    
+    background: #114625f9;
+    box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
+    border-radius: 6px;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 17;
+}
+
+.foto .imagem{
+    border: solid #0b2916f9;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 42%;
+    top: 11%;
+}
+
+.nome{
+    color: white;
+    font-family: 'Noto Rashi Hebrew', serif;
+    position: absolute;
+    left: 42%;
+    top: 35%;
+}
+
+.contatos{
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    font-size: 18px;
+}
+
+.contatos :hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#linkedin :hover{
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #0e76a8;
+    text-align: center;
+}
+
+#github :hover{
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #171515;
+    text-align: center;
+}
+
+#whatsapp :hover{
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #075E54;
+    text-align: center;
+}
+
+i{
+    padding: 6px;
+    
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+.clique{
+    position: absolute;
+    top: 53%;
+    left: 39%;
+    width: 223px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    word-spacing: 50px;
+}
+
+.interruptor {
+
+    position: absolute;
+    top: 0;
+    left: 1;
+    width: 230px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+/* color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    position: absolute;
+    top: -24%;
+    left: -4%;
+    width: 223px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+
+.interruptor::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    transition: all 0.3s;
+}
+
+.interruptor.on::before {
+    left: 50%;
+}

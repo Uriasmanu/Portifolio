@@ -1,4 +1,4 @@
-# Portfólio de Apresentação
+# Portfolio de Apresentação
 
 Este é um projeto front-end chamado Portfolio de Apresentação, que foi desenvolvido utilizando as linguagens de marcação HTML e CSS, além da linguagem de programação JavaScript. A página criada é responsiva e apresenta uma coleção de projetos de amostra e informações de contato pessoal para trabalho.
 
@@ -18,9 +18,9 @@ As tecnologias utilizadas para desenvolver este projeto são:
 
 O Portfolio de Apresentação possui as seguintes funcionalidades:
 
-- Coleção de projetos de amostra;
--  Informações de contato pessoal para trabalho;
-- Design responsivo para melhor visualização em dispositivos móveis.
+Coleção de projetos de amostra;
+Informações de contato pessoal para trabalho;
+Design responsivo para melhor visualização em dispositivos móveis.
 
 ## Como utilizar
 
