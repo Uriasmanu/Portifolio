@@ -154,3 +154,7 @@ button{
 .interruptor.on::before {
     left: 50%;
 }
+
+.hide {
+    display: none;
+}

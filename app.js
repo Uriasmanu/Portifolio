@@ -1,10 +1,16 @@
 function togglePage() {
     var interruptor = document.querySelector('.interruptor');
     interruptor.classList.toggle('on');
-    if (interruptor.classList.contains('on')) {
-      window.location.href = 'https://exemplo.com/pagina2';
+    
+    var skills = document.getElementById("skills");
+    var projetos = document.getElementById("projetos");
+  
+    if (skills.classList.contains("hide")) {
+      skills.classList.remove("hide");
+      projetos.classList.add("hide");
     } else {
-      window.location.href = 'https://exemplo.com/pagina1';
+      skills.classList.add("hide");
+      projetos.classList.remove("hide");
     }
   }
   
