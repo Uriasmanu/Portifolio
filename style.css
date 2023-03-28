@@ -8,7 +8,7 @@ body{
 }
 .fundo{
     
-    background: #114625f9;
+    background: #329b5cf9;
     box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
     border-radius: 6px;
     grid-column-start: 2;
@@ -240,7 +240,7 @@ button{
    }
    
    .card-2::before {
-    content: '--Iniciante--';
+    content: '--Intermediario--';
     position: absolute;
     bottom: 8px;
     left: 20px;
@@ -261,5 +261,229 @@ button{
    }
    
    .card-2:hover div {
+    transform: translateY(-30px);
+   }
+
+
+   .card-3 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-3::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-3 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-3:hover div {
+    transform: translateY(-30px);
+   }
+
+
+   .card-4 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-4::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-4 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-4:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-5 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-5::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-5 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-5:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-6 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-6::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-6 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-6:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-7 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-7::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-7 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-7:hover div {
+    transform: translateY(-30px);
+   }
+
+   .card-8 {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+   }
+   
+   .card-8::before {
+    content: '--Iniciante--';
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+   }
+   
+   .card-8 div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+   }
+   
+   .card-8:hover div {
     transform: translateY(-30px);
    }
