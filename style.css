@@ -158,3 +158,18 @@ button{
 .hide {
     display: none;
 }
+
+.skills{
+
+    position: absolute;
+    top: 455px;
+    left: 202px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 560px;
+    height: 232px;
+    justify-items: center;
+    align-items: center;
+    
+}
