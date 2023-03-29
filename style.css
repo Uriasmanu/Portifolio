@@ -545,3 +545,79 @@ button{
 }
 
 }
+@media screen and (min-width: 412px) and (max-width: 914px) {
+    
+    body{
+        background: #003519f9;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px x;
+    }
+    .fundo{
+        
+        background: #329b5cf9;
+        box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
+        border-radius: 6px;
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 2;
+        grid-row-end: 17;
+    }
+    
+    .foto .imagem{
+        border: solid #0b2916f9;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 32%;
+        top: 8%;
+    }
+    
+    .nome{
+        color: white;
+        font-family: 'Noto Rashi Hebrew', serif;
+        position: absolute;
+        left: 32%;
+        top: 25%;
+    }
+    
+    .contatos{
+        color: white;
+        position: absolute;
+        left: 25%;
+        top: 32%;
+        font-size: 18px;
+    }
+    .clique{
+    position: absolute;
+    top: 37%;
+    left: 41%;
+    width: 223px;
+    height: 42px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills{
+
+    position: absolute;
+    top: 49%;
+    left: 16%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 560px;
+    height: 232px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+    }
+    
