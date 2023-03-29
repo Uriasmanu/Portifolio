@@ -561,7 +561,7 @@ button{
         grid-column-start: 2;
         grid-column-end: 10;
         grid-row-start: 2;
-        grid-row-end: 17;
+        grid-row-end: 25;
     }
     
     .foto .imagem{
@@ -571,7 +571,7 @@ button{
         height: 150px;
         position: absolute;
         left: 32%;
-        top: 8%;
+        top: 10%;
     }
     
     .nome{
@@ -610,7 +610,7 @@ button{
     top: 49%;
     left: 16%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 560px;
     height: 232px;
