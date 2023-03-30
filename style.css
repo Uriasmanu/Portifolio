@@ -556,25 +556,33 @@ button{
         background: #329b5cf9;
         box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
         border-radius: 6px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        height: 900px;
+        position: absolute;
+        left: 55px;
+        top: 52px;
         
     }
     
     .foto .imagem{
         border: solid #0b2916f9;
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 212px;
+        height: 213px;
         position: absolute;
-        left: 32%;
-        top: 10%;
+        left: 165px;
+        top: 19px;
     }
     
     .nome{
+        
         color: white;
         font-family: 'Noto Rashi Hebrew', serif;
         position: absolute;
-        left: 32%;
-        top: 25%;
+        left: 192PX;
+        top: 234PX;
     }
     
     .contatos{

@@ -14,6 +14,7 @@ function togglePage() {
       skills.classList.add("hide");
       projetos.classList.remove("hide");
       
+      console.log(interruptor)
     }
   }
   
