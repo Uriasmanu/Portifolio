@@ -9,38 +9,38 @@ body{
 .fundo{
     
     background: #329b5cf9;
-    box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
-    border-radius: 6px;
-    grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    grid-row-end: 17;
+    position: absolute;
+    width: 1100px;
+    height: 800px;
+    top: 68px;
+    left: 70px;
 }
+
 
 .foto .imagem{
     border: solid #0b2916f9;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 42%;
-    top: 13%;
+    left: 450px;
+    top: 20px;
 }
 
 .nome{
     color: white;
     font-family: 'Noto Rashi Hebrew', serif;
     position: absolute;
-    left: 42%;
-    top: 35%;
+    left: 470px;
+    top: 240px;
 }
 
 .contatos{
     color: white;
     position: absolute;
-    left: 45%;
-    top: 45%;
-    font-size: 18px;
+    left: 490px;
+    top: 300px;
+    font-size: 23px;
 }
 
 .contatos :hover{
@@ -87,8 +87,8 @@ a {
 
 .clique{
     position: absolute;
-    top: 53%;
-    left: 40%;
+    left: 440px;
+    top: 350px;
     width: 223px;
     height: 42px;
     border: 2px solid #fff;
@@ -624,6 +624,7 @@ button{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    font-size: 34px;
 
 }
 
