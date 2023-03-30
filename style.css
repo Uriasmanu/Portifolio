@@ -559,7 +559,7 @@ button{
         width: 587px;
         margin: 0;
         padding: 0;
-        height: 1406px;
+        height: 1280px;
         position: absolute;
         left: 55px;
         top: 52px;
@@ -636,12 +636,17 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 560px;
+    width: 407px;
     height: 232px;
     justify-items: center;
     align-items: center;
     
 }
 
-    }
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+    width: 158px;
+    height: 158px;
+}
+
+}
     
