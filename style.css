@@ -556,10 +556,10 @@ button{
         background: #329b5cf9;
         box-shadow: -1px 12px 23px 13px rgb(0 0 0 / 32%);
         border-radius: 6px;
-        width: 400px;
+        width: 587px;
         margin: 0;
         padding: 0;
-        height: 900px;
+        height: 1406px;
         position: absolute;
         left: 55px;
         top: 52px;
@@ -567,37 +567,40 @@ button{
     }
     
     .foto .imagem{
+
         border: solid #0b2916f9;
         border-radius: 50%;
-        width: 212px;
-        height: 213px;
+        width: 250px;
+        height: 250px;
         position: absolute;
         left: 165px;
-        top: 19px;
+        top: 26px;
     }
     
     .nome{
-        
+
         color: white;
         font-family: 'Noto Rashi Hebrew', serif;
         position: absolute;
-        left: 192PX;
-        top: 234PX;
+        left: 165PX;
+        top: 294PX;
+        font-size: 38px;
     }
     
     .contatos{
+
         color: white;
         position: absolute;
-        left: 25%;
-        top: 32%;
-        font-size: 18px;
+        left: 204px;
+        top: 387px;
+        font-size: 43px;
     }
     .clique{
     position: absolute;
-    top: 37%;
-    left: 41%;
-    width: 223px;
-    height: 42px;
+    top: 467px;
+    left: 115px;
+    width: 364px;
+    height: 77px;
     border: 2px solid #fff;
     border-radius: 15px;
     cursor: pointer;
@@ -605,6 +608,23 @@ button{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.interruptor {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 364px;
+    height: 77px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .skills{
