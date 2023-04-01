@@ -649,4 +649,77 @@ button{
 }
 
 }
-    
+
+.carousel {
+    width: 501px;
+    height: 46vh;
+    position: relative;
+    overflow: hidden;
+    margin: 10%;
+    top: 315px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    left: 191px;
+    justify-content: center;
+    border-radius: 5px;
+}
+a iframe {
+    transition: filter 0.3s ;
+  }
+  
+  a:hover iframe {
+    filter: grayscale(80%);
+    cursor: pointer;
+  }
+
+ .imagemRobo{
+
+    width: 104%;
+    height: 50vh;
+    position: relative;
+    top: 3px;
+}
+
+.imagemCalcula{
+
+    width: 104%;
+    height: 50vh;
+    position: relative;
+    top: 3px;
+}
+
+
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
+
