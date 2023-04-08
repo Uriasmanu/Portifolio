@@ -6,7 +6,8 @@
 }
 
 body{
-    background: #010c04;
+    background: #010c04
+    height: 100vh;
 }
 
 .container{
