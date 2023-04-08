@@ -4,7 +4,7 @@ Este é um projeto front-end chamado Portfolio de Apresentação, que foi desenv
 
 ## Status
 
-Este projeto está em fase de finalização e já se encontra com status finalizado.
+Este projeto está em fase de desenvolvimento.
 
 ## Tecnologias utilizadas
 
