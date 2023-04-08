@@ -1,104 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <main class="fundo">
-        <section class="inicial">
-            <div class="foto">
-                <img class="imagem" src="https://media.licdn.com/dms/image/D4D03AQH099UzLQGVEw/profile-displayphoto-shrink_200_200/0/1679507927471?e=1684972800&v=beta&t=Abc2rm_evTqeyK2fGzqHLEu2R3jl8qvbJ1Lm5GZRi_s" height="150px" width="150px" alt="Minha foto de perfil" srcset="">
+<html lang="en-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Meu portifolio | Urias</title>
+</head>
+<body>
+    <section class="container">
+
+            <img src="/imagens/Foto perfil.jpeg" width="380" height="570" alt="Imagem de perfil Manoela">
+
+        <div class="textos">
+
+            <h1 class="texto__titulo"> - I’m Manoela Urias.</h1>
+            <h2 class="texto__subtitulo">Front-end developer</h2>
+            <p class="texto__texto">As a front-end developer and web designer, my main focus is to find creative solutions for complex problems. I am passionate about constant learning and I am always looking for ways to apply my knowledge to improve people's web experience.</p>
+
+            <div>
+                <button class="learn-more" data-botao>
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">More about me</span>
+                  </button>
             </div>
-            <h2 class="nome">Manoela Urias</h2>
-            <div class="contatos">
 
-                <a class="link" href="https://www.linkedin.com/in/manoela-urias-414869164" target="_blank"  id="linkedin"> <i class="fa-brands fa-linkedin" ></i> </a>
-                <a class="link" href="https://github.com/Uriasmanu" target="_blank" id="github" > <i class="fa-brands fa-github"></i> </a>
-                <a class="link" href="https://wa.me/5514996257741" target="_blank" id="whatsapp" > <i class="fa-brands fa-whatsapp"></i> </a>
+        </div>
 
-            </div>
-            <nav class="navegação">
+        <nav class="navegacao"></nav>
+        
+    </section>
 
-                <div class="clique">
-
-                    <button class="interruptor" onclick="togglePage()">Skills  Projetos</button>
-
-                </div>
-            <section id="skills" data-skills>
-
-                <div class="skills">
-                    <div class="card card-1">
-                        <div class="habilidades html" >HTLM</div>
-                    </div>
-
-                    <div class="card card-2">
-                    <div class="habilidades css"  >CSS</div>
-                    </div>
-
-                    <div class="card card-3">
-                    <div class="habilidades javascript"  >JavaScript</div>
-                    </div>
-
-                    <div class="card card-4">
-                    <div class="habilidades git"  >Git Hub</div>
-                    </div class="card">
-
-                    <div class="card card-5">
-                    <div class="habilidades ts"  >TS</div>
-                    </div>
-
-                    <div class="card card-6">
-                    <div class="habilidades chat"  >Chat GPT</div>
-                    </div>
-
-                    <div class="card card-7">
-                    <div class="habilidades figma"  >Figma</div>
-                    </div class="card">
-
-                    <div class="card card-8">
-                    <div class="habilidades canva"  >Canva</div>
-                    </div>
-
-                </div>
-                
-                
-                
-
-            </section>
-
-            <section id="projetos" class="hide" data-projetos>
-
-                <div class="carousel">
-            
-                <section class="slider">
-                        <input name='slide' type="radio" >
-                        <input name='slide' type="radio" checked>
-                        <input name='slide' type="radio">
-                        <input name='slide' type="radio">
-                    
-                        <div class="slider-content">
-                            <div class="slider-item"><a href="https://tip-calculator-app-main-self.vercel.app/">
-                                <iframe class="imagemCalcula" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1625753687/Challenges/wfczmy0nrltpwqyaovg6.jpg" alt="imagem tip-calculator-app-main" target="_blank"></iframe>
-                            </a></div>
-
-                            <div class="slider-item">
-                                <a href="https://robotron-2000-projeto-inicial-vert.vercel.app/" >
-                                    <iframe class="imagemRobo" src="https://robotron-2000-projeto-inicial-vert.vercel.app/"></iframe>
-                                </a>
-                            </div>
-
-                            <div class="slider-item"></div>
-                            <div class="slider-item">4</div>
-                        </div>
-                        </div>
-                </section>
-
-            </section>
-        </main>
-    <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
+    
     <script src="app.js"></script>
-    </body>
+    <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
+</body>
 </html>
