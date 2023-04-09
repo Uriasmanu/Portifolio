@@ -139,3 +139,17 @@ img{
    [data-botao]:hover .button-text {
     color: #fff;
    }
+
+   .container__botoes{
+    display: flex;
+    flex-direction: column;
+    height: 46vh;
+    justify-content: space-between;
+   }
+   .botoes{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        background: #636c5b;
+   }
