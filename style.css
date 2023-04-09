@@ -78,7 +78,7 @@ img{
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #84A864;
+    background: #68864c;
     border-radius: 1.625rem;
    }
    
@@ -140,16 +140,49 @@ img{
     color: #fff;
    }
 
-   .container__botoes{
+   .container__botoes {
     display: flex;
     flex-direction: column;
     height: 46vh;
     justify-content: space-between;
-   }
-   .botoes{
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        border: none;
-        background: #636c5b;
-   }
+  }
+  
+
+.botoes {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #636c5b;
+}
+
+.material-icons {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.texto-escondido {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.botoes:hover .texto-escondido {
+  visibility: visible;
+  left: -150%;
+}
+
+.botoes:hover {
+  cursor: pointer;
+  background: #68864c;
+  color: #fff;
+}
