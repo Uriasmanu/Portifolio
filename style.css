@@ -172,15 +172,22 @@ img{
   top: 0;
   left: -100%;
   padding: 10px;
-  background-color: #333;
+  background-color: #68864c;
   color: #fff;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
+}
+
+.botoes.home:hover .texto-escondido {
+  visibility: visible;
+  left: -100%;
+  top: 9px;
 }
 
 .botoes:hover .texto-escondido {
   visibility: visible;
-  left: -150%;
+  left: -130%;
+  top: 8px;
 }
 
 .botoes:hover {
