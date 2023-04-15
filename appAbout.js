@@ -3,7 +3,10 @@ const ageElement = document.getElementById('age');
 
 function updateAge() {
   const age = calculateAge(birthday);
-  ageElement.innerHTML = `Age: ${age}`;
+  const ageSpan = document.createElement('span');
+  ageSpan.classList.add('destaques');
+  ageSpan.textContent = age;
+  ageElement.appendChild(ageSpan); // Adiciona o span como filho do elemento age
 }
 
 function calculateAge(birthday) {
@@ -13,4 +16,3 @@ function calculateAge(birthday) {
 }
 
 updateAge(); // Chame a função para atualizar a idade no carregamento da página
-

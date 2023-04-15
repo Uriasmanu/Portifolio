@@ -51,6 +51,11 @@ img{
     margin: 1% 4%;
 
 }
+.navegacao{
+    display: flex; 
+    align-self: center;
+    
+}
 
 [data-botao] {
     position: relative;
@@ -143,10 +148,16 @@ img{
    }
 
    .container__botoes {
-    display: flex;
-    flex-direction: column;
-    height: 46vh;
-    justify-content: space-between;
+        flex-direction: column;
+        height: 46vh;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 20px;
+        display: flex;
+        z-index: 9999;
+        top: 26vh;
+        right: 11%;
+
   }
   
 
@@ -158,7 +169,6 @@ img{
   border: none;
   background: #636c5b;
 }
-
 .material-icons {
   display: inline-block;
   font-size: 24px;

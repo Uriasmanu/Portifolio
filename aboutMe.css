@@ -80,8 +80,11 @@ h1{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 11%;
-    gap: 11%;
+    gap: 50%;
 
+}
+.destaques{
+  color:#fff;
 }
 
 ul, a{
@@ -200,7 +203,7 @@ ul, a{
         display: flex;
         z-index: 9999;
         top: 26vh;
-        right: 10%;
+        right: 11%;
 
   }
   
