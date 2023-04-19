@@ -11,6 +11,7 @@ body{
     
 }
 
+
 .container{
     box-sizing: border-box;
     display: flex;
@@ -24,6 +25,8 @@ img{
     border-radius: 20px;
 
 }
+
+
 
 .textos{
     display: flex;
@@ -148,7 +151,7 @@ img{
    }
 
    .container__botoes {
-        flex-direction: column;
+    flex-direction: column;
         height: 46vh;
         justify-content: space-between;
         position: fixed;
@@ -159,8 +162,9 @@ img{
         right: 2%;
 
   }
-  
 
+ 
+  
 .botoes {
   position: relative;
   height: 50px;
@@ -169,6 +173,8 @@ img{
   border: none;
   background: #636c5b;
 }
+
+
 .material-icons {
   display: inline-block;
   font-size: 24px;
@@ -204,4 +210,86 @@ img{
   cursor: pointer;
   background: #68864c;
   color: #fff;
+}
+@media screen and (max-width: 500px ){
+    .container__botoes {
+ 
+     width: 45vh;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     bottom: 0px;
+     right: 0;
+     height: 54px;
+     background: #20221d;
+     flex-direction: row;
+     top:66%;
+ 
+    }
+    
+     
+  .container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3% 4%;
+    gap: 35px;
+}
+
+  .moldura{
+    width: 200px;
+    height: 200px;
+    border: 6px solid #636c5b;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 15%;
+  }
+  img{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: -15%;
+  }
+  .textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    width: 436px;
+    height: 295px;
+
+}
+.texto__texto {
+  margin: 1% 4%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.texto__titulo {
+  color: #84A864;
+  font-size: 31px;
+}
+.texto__titulo {
+  color: #84A864;
+  font-size: 31px;
+}
+[data-botao] {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  margin: 16% 8%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+ }
 }

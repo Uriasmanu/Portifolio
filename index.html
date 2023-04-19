@@ -13,7 +13,9 @@
 <body>
     <section class="container">
 
+        <div class="moldura">
             <img src="/imagens/Foto perfil.jpeg" width="380" height="570" alt="Imagem de perfil Manoela">
+        </div>
 
         <div class="textos">
 
@@ -35,22 +37,24 @@
         <nav class="navegacao">
             <div class="container__botoes">
 
-                <button class="botoes home">
+                <button onclick="changePage('index.html')" class="botoes home">
                   <span class="material-icons">home</span>
                   <span class="texto-escondido">Home</span>
                 </button>
               
-                <button class="botoes me"><span class="material-icons">
+                <button onclick="changePage('aboutMe.html')" class="botoes me"><span class="material-icons">
                     fingerprint
                     </span>
                     <span class="texto-escondido">About me</span>
                 </button>
-                <button class="botoes projetos"><span class="material-icons">
+                
+                <button onclick="changePage('projetos.html')" class="botoes projetos"><span class="material-icons">
                     business_center
                     </span>
                     <span class="texto-escondido">Projetos</span>
                 </button>
-                <button class="botoes contatos"><span class="material-icons">
+
+                <button onclick="changePage('contato.html')" class="botoes contatos"><span class="material-icons">
                     forward_to_inbox
                     </span>
                     <span class="texto-escondido">Contatos</span>
@@ -61,6 +65,7 @@
     </section>
 
     <script src="app.js"></script>
+    <script src="appAbout.js"></script>
     
     <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
 </body>
