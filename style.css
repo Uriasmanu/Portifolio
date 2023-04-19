@@ -212,7 +212,8 @@ img{
   color: #fff;
 }
 @media screen and (max-width: 500px ){
-  
+    
+     
     .container {
       display: flex;
       flex-direction: column;
@@ -282,7 +283,19 @@ img{
   bottom: 0;
   width: 100%;
   height: 54px;
-  background: #20221d;
+}
+
+.container__botoes {
+ 
+  width: 45vh;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+right: 0;
+height: 54px;
+flex-direction: row;
+bottom: 0;
+
 }
 
 .container__botoes {
@@ -295,5 +308,7 @@ img{
   width: 100%;
   height: 54px;
   flex-direction: row;
+background: #20221d;
+
 }
 }
