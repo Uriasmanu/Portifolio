@@ -214,16 +214,15 @@ img{
 @media screen and (max-width: 500px ){
     .container__botoes {
  
-     width: 45vh;
-     justify-content: space-around;
-     align-items: center;
-     position: fixed;
-     bottom: 0px;
-     right: 0;
-     height: 54px;
-     background: #20221d;
-     flex-direction: row;
-     top:66%;
+      width: 45vh;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      right: 0;
+      height: 54px;
+      background: #20221d;
+      flex-direction: row;
+      bottom: 0;
  
     }
     
