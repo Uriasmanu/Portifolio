@@ -32,6 +32,7 @@ h1{
   width: 105vw;
   height: 403px;
   margin-top: 4%;
+  margin-left: 2%;
   justify-content: space-between;
   gap: 17%;
     
@@ -56,12 +57,12 @@ h1{
 
 .texto__subtitulo{
   font-size: 19px;
-  margin: 0 70%;
+  margin: 0 79%;
   text-transform: uppercase;
   white-space: nowrap;
   position: relative;
   top: 35%;
-  left: -30%;
+  left: -38%;
     
 
 }
@@ -88,7 +89,7 @@ h1{
 .texto__info{
     flex-direction: column;
     color: #B9B5B5;
-    font-size: 15px;
+    font-size: 19px;
     display: flex;
     height: 53%;
     flex-wrap: nowrap;
@@ -121,7 +122,7 @@ ul, a{
 
 .my__skills{
   position: absolute;
-  top: 24%;
+  top: 31%;
   left: 56%;
 }
 
