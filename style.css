@@ -296,4 +296,8 @@ img{
     flex-direction: row;
     background: #20221d;
   }
+  
+  .texto-escondido{
+    display: none;
+  }
 }  
