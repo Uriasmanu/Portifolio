@@ -83,6 +83,11 @@ h1{
   margin-left: 8%;
 }
 
+.infos2{
+    position: relative;
+    top: -8px;
+}
+
 .Persona__Infos{
     display: flex;
     flex-direction: column;
@@ -356,7 +361,7 @@ ul, a{
   box-sizing: border-box;
   margin: 3% 4%;
   gap: 35px;
-  min-height: 100vh;
+  height: 100vh;
   }
   
   .personal {
@@ -395,7 +400,7 @@ ul, a{
   }
   
   .my__skills {
-    
+
   margin-top: 10%;
   position: absolute;
   top: 96%;
