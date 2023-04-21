@@ -16,9 +16,6 @@ function calculateAge(birthday) {
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-setTimeout(() => {
-  updateAge(); // Chame a função para atualizar a idade no carregamento da página, após 0.01s
-}, 10);
 
 function changePage(page) {
   fetch(page)
