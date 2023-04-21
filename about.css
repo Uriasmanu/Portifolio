@@ -127,7 +127,6 @@ ul, a{
 }
 
 .my__skills{
-  margin-top: 10%;
   position: absolute;
   top: 31%;
   left: 56%;
@@ -396,6 +395,8 @@ ul, a{
   }
   
   .my__skills {
+    
+  margin-top: 10%;
   position: absolute;
   top: 96%;
   left: 5%;
