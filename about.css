@@ -397,13 +397,13 @@ ul, a{
   flex-direction: row;
   position: relative;
   top: 90%;
+  margin-bottom: 10%;
   }
   
   .my__skills {
 
-  margin-top: 10%;
   position: absolute;
-  top: 96%;
+  top: 120%;
   left: 5%;
   }
   
