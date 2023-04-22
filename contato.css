@@ -1,494 +1,506 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+body{
+    
+    background: #010c04;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0 4%;
+    gap: 31%;
+    align-items: center;
+}
+
+[data-botao] {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    margin: 25% 8%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+   }
+   
+   [data-botao].learn-more {
+    width: 13.5rem;
+    height: auto;
+   }
+   
+   [data-botao].learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #68864c;
+    border-radius: 1.625rem;
+   }
+   
+   [data-botao].learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   [data-botao].learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   [data-botao].learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   [data-botao].learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   [data-botao]:hover .circle {
+    width: 100%;
+   }
+   
+   [data-botao]:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   [data-botao]:hover .button-text {
+    color: #fff;
+   }
+
+h1{
+    font-size: 36px;
+
+}
+
+.textos{
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  width: 105vw;
+  height: 403px;
+  margin-top: 4%;
+  margin-left: 2%;
+  justify-content: space-between;
+  gap: 17%;
+    
+}
+.texto__titulo{
+    position: absolute;
+    top: 8vh;
+    left: 48%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.texto__titulo::before {
+    content: " ";
+  }
   
- *{ 
-     margin: 0; 
- } 
+  .texto__titulo::after {
+    content: "Touch";
+    color: #84a846;
+  }
+
+.texto__subtitulo{
+  font-size: 19px;
+  margin: 0 79%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: relative;
+  top: 35%;
+  left: -38%;
+    
+
+}
+.container_infos{
+  display: flex;
+  justify-content: space-between;
+  width: 128%;
+  margin-top: 10%;
+}
+
+.infos1{
+  margin-left: 8%;
+}
+
+.infos2{
+    position: relative;
+    top: -8px;
+}
+
+.Persona__Infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:nowrap;
+    align-items:center;
+    height: 30%;
+}
+
+.texto__info{
+    flex-direction: column;
+    color: #B9B5B5;
+    font-size: 19px;
+    display: flex;
+    height: 53%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 11%;
+    gap: 40%;
+
+}
+
+.destaques{
+  color:#fff;
+}
+
+ul, a{
+     list-style: none;
+     text-decoration: none;
+     color: #fff;
+}
+
+.texto__texto{
+    margin: 1% 4%;
+
+}
+
+.navegacao{
+    display: flex; 
+    align-self: center;
+    
+}
+
+.my__skills{
+  position: absolute;
+  top: 31%;
+  left: 56%;
+}
+
+.card {
+  width: 300px;
+  height: 254px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+  overflow: visible;
+  margin-top: 10%;
+  margin-left: 10%;
+ }
+ 
+ .card .item {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .item:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+ }
+ 
+ .item i {
+  font-size: 36px;
+  margin-bottom: 7px;
+ }
+ 
+ .item--1,.item--2,.item--3, .item--4 {
+  background: #010c04;
+  border: 1px solid #636c5b;
+ }
+ 
+ .quantity {
+  font-size: 19px;
+  font-weight: 600;
+ }
+ 
+ .text {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
+ }
+ 
+ .text--1 {
+  color: rgba(149,149,255,1);
+ }
+ 
+ .text--2 {
+  color: rgba(252,161,71,1);
+ }
+ 
+ .text--3 {
+  color: rgba(66,193,110,1);
+ }
+ 
+ .text--4 {
+  color: rgba(220,91,183,1);
+ }
+
+[data-botao] {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    margin: 25% 8%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+   }
+   
+   [data-botao].learn-more {
+    width: 13.5rem;
+    height: auto;
+   }
+   
+   [data-botao].learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #68864c;
+    border-radius: 1.625rem;
+   }
+   
+   [data-botao].learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   [data-botao].learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   [data-botao].learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   [data-botao].learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   [data-botao]:hover .circle {
+    width: 100%;
+   }
+   
+   [data-botao]:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   [data-botao]:hover .button-text {
+    color: #fff;
+   }
+
+   .container__botoes {
+        flex-direction: column;
+        height: 46vh;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 20px;
+        display: flex;
+        z-index: 9999;
+        top: 26vh;
+        right: 2%;
+
+  }
   
- body{ 
-      
-     background: #010c04; 
-      
- } 
+
+.botoes {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #636c5b;
+}
+
+.material-icons {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.texto-escondido {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  padding: 10px;
+  background-color: #68864c;
+  color: #fff;
+  visibility: hidden;
+  transition: all 0.1s ease;
+}
+
+.botoes.home:hover .texto-escondido {
+  visibility: visible;
+  left: -100%;
+  top: 9px;
+}
+
+.botoes:hover .texto-escondido {
+  visibility: visible;
+  left: -130%;
+  top: 8px;
+}
+
+.botoes:hover {
+  cursor: pointer;
+  background: #68864c;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
   
- .container{ 
-     width: 100vw; 
-     height: 100vh; 
-     display: flex; 
-     margin: 0 4%; 
-     gap: 31%; 
-     align-items: center; 
- } 
- .moldura{ 
-   display: none; 
- } 
- img{ 
-   display: none; 
- } 
+  .texto__titulo {
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  }
   
- h1{ 
-     font-size: 36px; 
+  .texto__titulo::before {
+  content: " ";
+  }
   
- } 
+  .texto__titulo::after {
+  content: "Touch";
+  color: #84a846;
+  }
   
- .textos{ 
-   display: flex; 
-   align-items: flex-start; 
-   color: #fff; 
-   font-family: 'Roboto Slab', serif; 
-   width: 105vw; 
-   height: 403px; 
-   margin-top: 4%; 
-   margin-left: 2%; 
-   justify-content: space-between; 
-   gap: 17%; 
-      
- } 
- .texto__titulo{ 
-     position: absolute; 
-     top: 8vh; 
-     left: 48%; 
-     transform: translateX(-50%); 
-     color: #fff; 
-     text-transform: uppercase; 
- } 
+  .texto__texto {
+  margin: 1% 4%;
+  text-align: center;
+  font-size: 16px;
+  }
   
- .texto__titulo::before { 
-     content: " "; 
-   } 
-    
-   .texto__titulo::after { 
-     content: "me"; 
-     color: #84a846; 
-   } 
+  [data-botao] {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  margin: 16% 8%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  }
   
- .texto__subtitulo{ 
-   font-size: 19px; 
-   margin: 0 79%; 
-   text-transform: uppercase; 
-   white-space: nowrap; 
-   position: relative; 
-   top: 35%; 
-   left: -38%; 
-      
+  .navegacao {
+  position: fixed;
+  width: 100%;
+  height: 54px;
+  top: 70%;
+  }
   
- } 
- .container_infos{ 
-   display: flex; 
-   justify-content: space-between; 
-   width: 128%; 
-   margin-top: 10%; 
- } 
-  
- .infos1{ 
-   margin-left: 8%; 
- } 
-  
- .Persona__Infos{ 
-     display: flex; 
-     flex-direction: column; 
-     justify-content: center; 
-     flex-wrap:nowrap; 
-     align-items:center; 
-     height: 30%; 
- } 
-  
- .texto__info{ 
-     flex-direction: column; 
-     color: #B9B5B5; 
-     font-size: 19px; 
-     display: flex; 
-     height: 53%; 
-     flex-wrap: nowrap; 
-     justify-content: space-between; 
-     margin-top: 11%; 
-     gap: 40%; 
-  
- } 
-  
- .destaques{ 
-   color:#fff; 
- } 
-  
- ul, a{ 
-      list-style: none; 
-      text-decoration: none; 
-      color: #fff; 
- } 
-  
- .texto__texto{ 
-     margin: 1% 4%; 
-  
- } 
-  
- .navegacao{ 
-     display: flex;  
-     align-self: center; 
-      
- } 
-  
- .my__skills{ 
-   position: absolute; 
-   top: 31%; 
-   left: 56%; 
- } 
-  
- .card { 
-   width: 300px; 
-   height: 254px; 
-   color: white; 
-   display: grid; 
-   grid-template-columns: 1fr 1fr; 
-   grid-template-rows: 1fr 1fr; 
-   gap: 8px; 
-   overflow: visible; 
-   margin-top: 10%; 
-   margin-left: 10%; 
-  } 
-   
-  .card .item { 
-   border-radius: 10px; 
-   width: 100%; 
-   height: 100%; 
-   display: flex; 
-   flex-direction: column; 
-   align-items: center; 
-   justify-content: center; 
-  } 
-   
-  .item:hover { 
-   transform: scale(0.95); 
-   transition: all 0.3s; 
-  } 
-   
-  .item i { 
-   font-size: 36px; 
-   margin-bottom: 7px; 
-  } 
-   
-  .item--1,.item--2,.item--3, .item--4 { 
-   background: #010c04; 
-   border: 1px solid #636c5b; 
-  } 
-   
-  .quantity { 
-   font-size: 19px; 
-   font-weight: 600; 
-  } 
-   
-  .text { 
-   font-size: 12px; 
-   font-family: inherit; 
-   font-weight: 600; 
-  } 
-   
-  .text--1 { 
-   color: rgba(149,149,255,1); 
-  } 
-   
-  .text--2 { 
-   color: rgba(252,161,71,1); 
-  } 
-   
-  .text--3 { 
-   color: rgba(66,193,110,1); 
-  } 
-   
-  .text--4 { 
-   color: rgba(220,91,183,1); 
-  } 
-  
- [data-botao] { 
-     position: relative; 
-     display: inline-block; 
-     cursor: pointer; 
-     outline: none; 
-     border: 0; 
-     vertical-align: middle; 
-     text-decoration: none; 
-     background: transparent; 
-     padding: 0; 
-     font-size: inherit; 
-     margin: 25% 8%; 
-     font-family: 'Roboto Slab', serif; 
-     font-weight: 400; 
-    } 
-     
-    [data-botao].learn-more { 
-     width: 13.5rem; 
-     height: auto; 
-    } 
-     
-    [data-botao].learn-more .circle { 
-     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); 
-     position: relative; 
-     display: block; 
-     margin: 0; 
-     width: 3rem; 
-     height: 3rem; 
-     background: #68864c; 
-     border-radius: 1.625rem; 
-    } 
-     
-    [data-botao].learn-more .circle .icon { 
-     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); 
-     position: absolute; 
-     top: 0; 
-     bottom: 0; 
-     margin: auto; 
-     background: #fff; 
-    } 
-     
-    [data-botao].learn-more .circle .icon.arrow { 
-     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); 
-     left: 0.625rem; 
-     width: 1.125rem; 
-     height: 0.125rem; 
-     background: none; 
-    } 
-     
-    [data-botao].learn-more .circle .icon.arrow::before { 
-     position: absolute; 
-     content: ""; 
-     top: -0.29rem; 
-     right: 0.0625rem; 
-     width: 0.625rem; 
-     height: 0.625rem; 
-     border-top: 0.125rem solid #fff; 
-     border-right: 0.125rem solid #fff; 
-     transform: rotate(45deg); 
-    } 
-     
-    [data-botao].learn-more .button-text { 
-     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1); 
-     position: absolute; 
-     top: 0; 
-     left: 0; 
-     right: 0; 
-     bottom: 0; 
-     padding: 0.75rem 0; 
-     margin: 0 0 0 1.85rem; 
-     color: #fff; 
-     font-weight: 700; 
-     line-height: 1.6; 
-     text-align: center; 
-     text-transform: uppercase; 
-    } 
-     
-    [data-botao]:hover .circle { 
-     width: 100%; 
-    } 
-     
-    [data-botao]:hover .circle .icon.arrow { 
-     background: #fff; 
-     transform: translate(1rem, 0); 
-    } 
-     
-    [data-botao]:hover .button-text { 
-     color: #fff; 
-    } 
-  
-    .container__botoes { 
-         flex-direction: column; 
-         height: 46vh; 
-         justify-content: space-between; 
-         position: fixed; 
-         bottom: 20px; 
-         display: flex; 
-         z-index: 9999; 
-         top: 26vh; 
-         right: 2%; 
-  
-   } 
-    
-  
- .botoes { 
-   position: relative; 
-   height: 50px; 
-   width: 50px; 
-   border-radius: 50%; 
-   border: none; 
-   background: #636c5b; 
- } 
-  
- .material-icons { 
-   display: inline-block; 
-   font-size: 24px; 
-   line-height: 50px; 
-   text-align: center; 
-   color: #fff; 
- } 
-  
- .texto-escondido { 
-   position: absolute; 
-   top: 0; 
-   left: -100%; 
-   padding: 10px; 
-   background-color: #68864c; 
-   color: #fff; 
-   visibility: hidden; 
-   transition: all 0.1s ease; 
- } 
-  
- .botoes.home:hover .texto-escondido { 
-   visibility: visible; 
-   left: -100%; 
-   top: 9px; 
- } 
-  
- .botoes:hover .texto-escondido { 
-   visibility: visible; 
-   left: -130%; 
-   top: 8px; 
- } 
-  
- .botoes:hover { 
-   cursor: pointer; 
-   background: #68864c; 
-   color: #fff; 
- } 
-  
- @media screen and (max-width: 500px) { 
-   .container { 
-   display: flex; 
-   flex-direction: column; 
-   justify-content: flex-start; 
-   align-items: center; 
-   box-sizing: border-box; 
-   margin: 3% 4%; 
-   gap: 35px; 
-   min-height: 100vh; 
-   } 
-    
-   .personal { 
-   position: absolute; 
-   top: 19%; 
-   left: -48%; 
-   } 
-    
-   .moldura { 
-   display: block; 
-   width: 200px; 
-   height: 200px; 
-   border: 6px solid #636c5b; 
-   border-radius: 50%; 
-   overflow: hidden; 
-   position: relative; 
-   top: 18%; 
-   left: -10px; 
-   } 
-    
-   img { 
-   display: block; 
-   width: 200px; 
-   height: 300px; 
-   position: relative; 
-   top: -15%; 
-   } 
-    
-   .container_infos { 
-   display: flex; 
-   justify-content: space-between; 
-   width: 94%; 
-   flex-direction: row; 
-   position: relative; 
-   top: 90%; 
-   } 
-    
-   .my__skills { 
-   position: absolute; 
-   top: 96%; 
-   left: 5%; 
-   } 
-    
-   .texto__info { 
-   display: flex; 
-   flex-direction: column; 
-   justify-content: space-between; 
-   align-items: center; 
-   color: #B9B5B5; 
-   font-size: 19px; 
-   height: 35%; 
-   margin-top: 11%; 
-   gap: 28%; 
-   flex-wrap: nowrap; 
-   } 
-    
-   .infos1 { 
-   margin-left: 0; 
-   } 
-    
-   .textos { 
-   display: flex; 
-   flex-direction: column; 
-   justify-content: flex-end; 
-   align-items: center; 
-   color: #fff; 
-   font-family: 'Roboto Slab', serif; 
-   width: 436px; 
-   height: 208px; 
-   } 
-    
-   .texto__titulo { 
-   position: absolute; 
-   top: 8vh; 
-   left: 50%; 
-   transform: translateX(-50%); 
-   color: #fff; 
-   text-transform: uppercase; 
-   } 
-    
-   .texto__titulo::before { 
-   content: " "; 
-   } 
-    
-   .texto__titulo::after { 
-   content: "me"; 
-   color: #84a846; 
-   } 
-    
-   .texto__texto { 
-   margin: 1% 4%; 
-   text-align: center; 
-   font-size: 16px; 
-   } 
-    
-   [data-botao] { 
-   position: relative; 
-   display: inline-block; 
-   cursor: pointer; 
-   outline: none; 
-   border: 0; 
-   vertical-align: middle; 
-   text-decoration: none; 
-   background: transparent; 
-   padding: 0; 
-   font-size: inherit; 
-   margin: 16% 8%; 
-   font-family: 'Roboto Slab', serif; 
-   font-weight: 400; 
-   } 
-    
-   .navegacao { 
-   position: fixed; 
-   width: 100%; 
-   height: 54px; 
-   top: 66%; 
-   } 
-    
-   .container__botoes { 
-   display: flex; 
-   justify-content: space-around; 
-   align-items: center; 
-   position: absolute; 
-   right: 0; 
-   bottom: 54px; 
-   width: 100%; 
-   height: 54px; 
-   flex-direction: row; 
-   background: #20221d; 
-   } 
-  
-   .texto-escondido{ 
-     display: none; 
-   } 
-   }
+  .container__botoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 54px;
+  width: 100%;
+  height: 54px;
+  flex-direction: row;
+  background: #20221d;
+  }
+
+  .texto-escondido{
+    display: none;
+  }
+  }
