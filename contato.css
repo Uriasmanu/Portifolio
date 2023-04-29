@@ -3,6 +3,7 @@
 *{
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    color: white;
     
 }
 
@@ -136,6 +137,7 @@ h1{
     transform: translateX(-50%);
     color: #fff;
     text-transform: uppercase;
+    font-size: 48px;
 }
 
 .texto__titulo::before {
@@ -148,14 +150,13 @@ h1{
   }
 
 .texto__subtitulo{
-  font-size: 19px;
+  font-size: 29px;
   margin: 0 79%;
   text-transform: uppercase;
   white-space: nowrap;
-  position: relative;
-  top: 35%;
-  left: -38%;
-    
+  position: absolute;
+  top: 27%;
+  left: -75%;
 
 }
 .container_infos{
@@ -175,12 +176,18 @@ h1{
 }
 
 .Persona__Infos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap:nowrap;
-    align-items:center;
-    height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50%;
+  align-content: space-between;
+}
+
+.chamada{
+  font-size: 20px;
+  width: 38vw;
 }
 
 .texto__info{
@@ -461,7 +468,7 @@ ul, a{
   .texto__texto {
   margin: 1% 4%;
   text-align: center;
-  font-size: 16px;
+  font-size: 26px;
   }
   
   [data-botao] {
