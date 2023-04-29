@@ -151,12 +151,9 @@ h1{
 
 .texto__subtitulo{
   font-size: 29px;
-  margin: 0 79%;
   text-transform: uppercase;
-  white-space: nowrap;
-  position: absolute;
-  top: 27%;
-  left: -75%;
+  margin: 0;
+  
 
 }
 .container_infos{
@@ -180,14 +177,36 @@ h1{
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  height: 50%;
+  align-items: flex-start;
+  height: 71%;
   align-content: space-between;
 }
 
 .chamada{
   font-size: 20px;
   width: 38vw;
+  margin: 6% 0;
+}
+
+.informes{
+  display: flex;
+  justify-content: space-between;
+  height: 12%;
+  gap: 15px;
+  align-items:flex-start;
+}
+
+.detalhes{
+  display: flex;
+  flex-direction: column;
+  
+  align-content: space-between;
+  gap: 10px;
+}
+
+[data-info]{
+  color: #84a846;
+  font-size: 40px;
 }
 
 .texto__info{
@@ -205,6 +224,28 @@ h1{
 
 .destaques{
   color:#fff;
+}
+.subtitulo__menor{
+  color: #636c5b;
+}
+
+.sociais{
+  display: flex;
+  align-content: space-between;
+  gap: 22px;
+  margin-top: 5%;
+}
+
+.soci{
+  color: #ffffff;
+  font-size: 25px;
+  background: #636c5b;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul, a{
