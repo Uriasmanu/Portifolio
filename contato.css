@@ -248,6 +248,11 @@ h1{
   align-items: center;
 }
 
+.soci:hover{
+  background: #84a846;
+  cursor: pointer;
+}
+
 ul, a{
      list-style: none;
      text-decoration: none;
