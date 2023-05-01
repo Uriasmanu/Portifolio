@@ -8,3 +8,4 @@ function changePage(page) {
   xhr.open("GET", page, true);
   xhr.send();
 }
+
