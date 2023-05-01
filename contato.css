@@ -565,12 +565,13 @@ textarea {
 @media screen and (max-width: 500px) {
   
   .texto__titulo {
-  position: absolute;
-  top: 8vh;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  text-transform: uppercase;
+    position: absolute;
+    top: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 29px;
   }
   
   .texto__titulo::before {
@@ -587,7 +588,53 @@ textarea {
   text-align: center;
   font-size: 26px;
   }
-  
+
+  .Persona__Infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 71%;
+    width: 300px;
+    align-content: space-between;
+    margin-top: 32%;
+}
+
+
+.chamada {
+    font-size: 20px;
+    width: 87vw;
+    margin: 6% 0;
+}
+
+.formulario {
+  position: absolute;
+  top: 87%;
+  left: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  flex-direction: column;
+  margin-left: 12%;
+  gap: 10px;
+}
+
+.form input {
+  background: #252525;
+  width: 377px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+#assunto {
+  width: 112%;
+}
+
   [data-botao] {
   position: relative;
   display: inline-block;
