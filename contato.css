@@ -564,6 +564,15 @@ textarea {
 
 @media screen and (max-width: 500px) {
   
+  .container {
+    width: 100vw;
+    height: 168vh;
+    display: flex;
+    margin: 0 4%;
+    gap: 31%;
+    align-items: center;
+  }
+  
   .texto__titulo {
     position: absolute;
     top: 8vh;

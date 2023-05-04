@@ -353,16 +353,17 @@ ul, a{
 }
 
 @media screen and (max-width: 500px) {
+  
   .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 3% 4%;
-  gap: 35px;
-  height: 100vh;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 3% 4%;
+    gap: 35px;
+    height: 157vh;
+}
   
   .personal {
   position: absolute;
