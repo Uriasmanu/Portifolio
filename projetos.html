@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="aboutMe.css">
+    <link rel="stylesheet" href="projetos.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -15,75 +15,111 @@
     <div id="conteudo">
     <section class="container">
 
-        <div class="moldura">
-            <img src="/imagens/Foto perfil.jpeg" width="380" height="570" alt="Imagem de perfil Manoela">
-        </div>
+            <h1 class="texto__titulo"> Get in </h1>
 
-        <div class="textos">
+        <div class="Persona__Infos">
 
-            <h1 class="texto__titulo"> About </h1>
+            <h2 class="texto__subtitulo">DON'T BE SHY !</h2>
 
-            <div class="Persona__Infos">
-            <h2 class="texto__subtitulo personal">Personal Infos</h2>
-
+            <p class="chamada">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
             
+            <div class="informes">
 
-                <div class="container_infos">
-                    <div class="infos1">
-                        <ul class="texto__info">
-                            <li>First Name: <span class="destaques">Manoela</span></li>
-                            <li id="age">Age: <span class="destaques">22</span> </li>
-                            <li>Freelancer: <span class="destaques">Avaliable</span></li>
-                            <li>Phone: <span class="destaques">+5514996257741</span></li>
-                            <li>Linkedin: <a href="//https://www.linkedin.com/in/manoela-urias-414869164?trk=contact-info">Manoela Urias</a></li>
-                        </ul>
-                    </div>
-                    <div class="infos2">
-                        <ul class="texto__info">
-                            <li>Last Name: <span class="destaques">Urias</span></li>
-                            <li>Nationality: <span class="destaques">Brazilia</span></li>
-                            <li>Adress: <span class="destaques">São Paulo</span></li>
-                            <li>Email: <span class="destaques">maanoelaurias@gmail.com</span></li>
-                            <li>Langages: <span class="destaques">Portugues, Inglish</span></li>
-                        </ul>
-                    </div>
-                 </div>
-        </div>
-            <div class="my__skills">
-            <h2 class="texto__subtitulo skills">My Skills</h2>
-            <div class="card">
-                <div class="item item--1">
-                    <i class="fa-brands fa-js" style="color: #84a846;"></i>
-                  <span class="quantity"> 50% </span>
-                  <span class="text text--1"> Javascript </span>
+                <i class="fa-sharp fa-regular fa-map" data-info=""></i>
+
+                <div class="detalhes">
+                
+                    <h3 class="subtitulo__menor">ADDRESS POINT</h3>
+                        <p class="informacoes">Marilia - São Paulo</p>
                 </div>
-                <div class="item item--2">
-                    <i data-skills="" class="fa-brands fa-html5" style="color: #84a846;"  ></i>    <span class="quantity"> 70% </span>
-                  <span class="text text--2"> HTML </span>
+            </div>
+
+            <div class="informes">
+
+                <i class="fa-regular fa-envelope-open" data-info=""></i>
+
+                <div class="detalhes">
+                    <h3 class="subtitulo__menor">MAIL ME </h3>
+                    <p class="informacoes">maanoelaurias@gmail.com</p>
                 </div>
-                <div class="item item--3">
-                    <i class="fa-brands fa-css3-alt" style="color: #84a846;"></i>
-                  <span class="quantity"> 70% </span>
-                  <span class="text text--3"> CSS </span>
+                
+            </div>
+
+            <div class="informes">
+
+                <i class="fa-brands fa-whatsapp" style="color: #84a846;" data-info=""></i>
+
+                <div class="detalhes">
+
+                    <h3 class="subtitulo__menor">TEXT ME</h3>
+                    <p class="informacoes">+5514996257741</p>
+
                 </div>
-                <div class="item item--4">
-                    <i class="fa-brands fa-figma" style="color: #84a846;"></i>
-                  <span class="quantity"> 50% </span>
-                  <span class="text text--4"> Figma </span>
+            </div>
+
+            <div class="sociais">
+
+                <div class="soci">
+                    <a href="https://github.com/Uriasmanu" target="_blank">
+                        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                    </a>
                 </div>
-              </div>
-        </div>
+
+                <div class="soci">
+                    <a href="https://www.linkedin.com/in/manoela-urias-414869164/" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+
+                <div class="soci">
+                    <a href="https://www.behance.net/manoelaurias" target="_blank">
+                        <i class="fa-brands fa-square-behance" style="color:#ffffff"></i>
+                    </a>
+                </div>
+
+
+            </div>
 
         </div>
+
+        <form action="/enviar_email.php" method="POST" class="formulario" id="formulario">
+
+            <div class="form">
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="YOUR NAME">
+                
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="YOUR EMAIL">
+            </div>
+            
+            <div  class="form mensage">
+            <label for="assunto"></label>
+                <input type="text" id="assunto" name="assunto" placeholder="YOUR SUBJECT">
+                
+                <label for="mensagem"></label>
+                <textarea id="mensagem" name="mensagem" placeholder="YOUR MESSAGE"></textarea>
+            </div>
+
+            <div class="button__send">
+                <button class="learn-more" data-botao>
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Send Menssage</span>
+                </button>
+            </div>
+            
+        </form>
+
 
         <nav class="navegacao">
             <div class="container__botoes">
 
                 <button onclick="changePage('index.html')" class="botoes home">
-                  <span class="material-icons">home</span>
-                  <span class="texto-escondido">Home</span>
+                    <span class="material-icons">home</span>
+                    <span class="texto-escondido">Home</span>
                 </button>
-              
+            
                 <button onclick="changePage('about.html')" class="botoes me"><span class="material-icons">
                     fingerprint
                     </span>
@@ -105,9 +141,13 @@
         </nav>
         
     </section>
-
+    
     </div>
+    
+    <script src="https://apis.google.com/js/api.js"></script>
+
     <script src="app.js"></script>
+    <script src="contato.js"></script>
     
     <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
 </body>

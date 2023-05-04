@@ -675,3 +675,38 @@ textarea {
     display: none;
   }
   }
+
+  @media screen and (min-width: 1700px) {
+
+    .container {
+      width: 96vw;
+      height: 100vh;
+      display: flex;
+      margin: 0 4%;
+      gap: 31%;
+      align-items: center;
+    }
+
+    .Persona__Infos {
+      display: flex;
+      flex-flow: column wrap;
+      place-content: space-between center;
+      align-items: flex-start;
+      height: 71%;
+      margin-top: 2%;
+      margin-left: 10%;
+  }
+
+  .chamada {
+    font-size: 20px;
+    width: 28vw;
+    margin: 6% 0;
+}
+
+.formulario {
+  position: absolute;
+  top: 25%;
+  left: 48%;
+}
+
+  }

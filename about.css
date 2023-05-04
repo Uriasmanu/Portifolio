@@ -401,11 +401,11 @@ ul, a{
   }
   
   .my__skills {
-
-  position: absolute;
-  top: 110%;
-  left: 5%;
-  }
+    position: absolute;
+    top: 105%;
+    left: 5%;
+    margin-bottom: 13%;
+}
   
   .texto__info {
   display: flex;
@@ -498,3 +498,28 @@ ul, a{
     display: none;
   }
   }
+
+@media screen and (min-width: 1700px) {
+
+  .container {
+    width: 95vw;
+    height: 98vh;
+    display: flex;
+    margin: 0 4%;
+    gap: 31%;
+    align-items: center;
+}
+
+  .textos {
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    width: 105vw;
+    height: 403px;
+    margin-top: 2%;
+    margin-left: 9%;
+    justify-content: space-between;
+    gap: 17%;
+}
+}
