@@ -566,7 +566,7 @@ textarea {
   
   .container {
     width: 100vw;
-    height: 168vh;
+    height: 178vh;
     display: flex;
     margin: 0 4%;
     gap: 31%;
@@ -581,6 +581,7 @@ textarea {
     color: #fff;
     text-transform: uppercase;
     font-size: 29px;
+    
   }
   
   .texto__titulo::before {
@@ -598,6 +599,15 @@ textarea {
   font-size: 26px;
   }
 
+  .texto__subtitulo {
+    font-size: 29px;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 16%;
+    left: 24%;
+}
+
   .Persona__Infos {
     display: flex;
     flex-direction: column;
@@ -612,15 +622,22 @@ textarea {
 
 
 .chamada {
-    font-size: 20px;
-    width: 87vw;
-    margin: 6% 0;
+  font-size: 20px;
+  width: 87vw;
+  margin: 6% 0;
+  position: absolute;
+  top: 23%;
 }
 
 .formulario {
   position: absolute;
-  top: 87%;
+  top: 106%;
   left: 0;
+}
+
+.button__send {
+  width: 100px;
+  margin-left: 10%;
 }
 
 .form {
