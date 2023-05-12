@@ -24,6 +24,7 @@ body{
 }
 
 .portifolio-main {
+  margin-top: 15%;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 30px;
@@ -31,10 +32,50 @@ body{
   padding-bottom: 70px;
 }
 
-iframe{
+.primeiro {
   width: 450px;
   height: 300px;
 }
+
+.card:hover img {
+  filter: brightness(0.2);
+}
+
+.overlay {
+  
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.one{
+  position: absolute;
+  top: 56%;
+  left: 21%;
+}
+
+.segundo{
+  position: relative;
+  top: -46%;
+  left: 52%;
+}
+
+.terceiro{
+  position: relative;
+  top: -46%;
+  left: 52%;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: #fff;
+  font-size: 24px;
+}
+
+
 
 [data-botao] {
     position: relative;
