@@ -75,8 +75,6 @@ body{
   font-size: 24px;
 }
 
-
-
 [data-botao] {
     position: relative;
     display: inline-block;
@@ -374,7 +372,7 @@ h1{
     transform: translateX(-50%);
     color: #fff;
     text-transform: uppercase;
-    font-size: 29px;
+    font-size: 26px;
     
   }
   
@@ -383,10 +381,33 @@ h1{
   }
   
   .texto__titulo::after {
-  content: "Touch";
+  content: "Portifolio";
   color: #84a846;
   }
   
+  .portifolio-main {
+    margin-top: 53%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.primeiro {
+  width: 400px;
+  height: 300px;
+}
+.one {
+  position: absolute;
+  top: 36%;
+  left: 53%;
+}
+.segundo .terceiro .quarto .quinto .sexto{
+  position: relative;
+  top: -58%;
+  left: 52%;
+}
 
   [data-botao] {
   position: relative;
