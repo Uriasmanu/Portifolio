@@ -4,73 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
-      <link rel="icon" type="image/png" sizes="32x32" href="/imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg" style="color: aliceblue;">
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/account_circle_FILL0_wght400_GRAD0_opsz48.svg" style="color: aliceblue;">
     <title>Meu portifolio | Urias</title>
 </head>
 <body>
     <div id="conteudo">
-    <section class="container">
+        <section class="container">
 
-        <div class="moldura">
-            <img src="/imagens/Foto perfil.jpeg" width="380" height="570" alt="Imagem de perfil Manoela">
-        </div>
-
-        <div class="textos">
-
-            <h1 class="texto__titulo"> - I’m Manoela Urias.</h1>
-            <h2 class="texto__subtitulo">Front-end developer</h2>
-            <p class="texto__texto">As a front-end developer and web designer, my main focus is to find creative solutions for complex problems. I am passionate about constant learning and I am always looking for ways to apply my knowledge to improve people's web experience.</p>
-            <li id="age" style="list-style: none;"></li>
-            <div>
-                <button class="learn-more" data-botao>
-                    <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">More about me</span>
-                </button>
+            <div class="moldura">
+                <img src="/img/Foto perfil.jpeg" width="380" height="570" alt="Imagem de perfil Manoela">
             </div>
 
-        </div>
-        
-        <nav class="navegacao">
-            <div class="container__botoes">
+            <div class="textos">
 
-                <button onclick="changePage('index.html')" class="botoes home">
-                  <span class="material-icons">home</span>
-                  <span class="texto-escondido">Home</span>
-                </button>
-              
-                <button onclick="changePage('about.html')" class="botoes me"><span class="material-icons">
-                    fingerprint
-                    </span>
-                    <span class="texto-escondido">About me</span>
-                </button>
+                <h1 class="texto__titulo"> - I’m Manoela Urias.</h1>
+                <h2 class="texto__subtitulo">Front-end developer</h2>
+                <p class="texto__texto">As a front-end developer and web designer, my main focus is to find creative solutions for complex problems. I am passionate about constant learning and I am always looking for ways to apply my knowledge to improve people's web experience.</p>
+                <li id="age" style="list-style: none;"></li>
+                <div>
+                    <button class="learn-more" data-botao>
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">More about me</span>
+                    </button>
+                </div>
+
+            </div>
+            
+            <nav class="navegacao">
+                <div class="container__botoes">
+
+                    <button onclick="changePage('index.html')" class="botoes home">
+                    <span class="material-icons">home</span>
+                    <span class="texto-escondido">Home</span>
+                    </button>
                 
-                <button onclick="changePage('projetos.html')" class="botoes projetos"><span class="material-icons">
-                    business_center
-                    </span>
-                    <span class="texto-escondido">Projetos</span>
-                </button>
+                    <button onclick="changePage('about.html')" class="botoes me"><span class="material-icons">
+                        fingerprint
+                        </span>
+                        <span class="texto-escondido">About me</span>
+                    </button>
+                    
+                    <button onclick="changePage('projetos.html')" class="botoes projetos"><span class="material-icons">
+                        business_center
+                        </span>
+                        <span class="texto-escondido">Projetos</span>
+                    </button>
 
-                <button onclick="changePage('contato.html')" class="botoes contatos"><span class="material-icons">
-                    forward_to_inbox
-                    </span>
-                    <span class="texto-escondido">Contatos</span>
-                </button>
-            </div>
-        </nav>
-        
-    </section>
-
+                    <button onclick="changePage('contato.html')" class="botoes contatos"><span class="material-icons">
+                        forward_to_inbox
+                        </span>
+                        <span class="texto-escondido">Contatos</span>
+                    </button>
+                </div>
+            </nav>
+            
+        </section>
     </div>
 
-    <script src="app.js"></script>
-    
+    <script src="./js/app.js"></script>
     <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
 </body>
 </html>
